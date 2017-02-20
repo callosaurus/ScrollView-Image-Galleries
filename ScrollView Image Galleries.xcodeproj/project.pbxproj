@@ -13,6 +13,7 @@
 		3F63B68D1E5B720400F788FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F63B68B1E5B720400F788FA /* Main.storyboard */; };
 		3F63B68F1E5B720400F788FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F63B68E1E5B720400F788FA /* Assets.xcassets */; };
 		3F63B6921E5B720400F788FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F63B6901E5B720400F788FA /* LaunchScreen.storyboard */; };
+		3F63B69B1E5B979800F788FA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F63B69A1E5B979800F788FA /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3F63B68E1E5B720400F788FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F63B6911E5B720400F788FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F63B6931E5B720400F788FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F63B6991E5B979800F788FA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F63B69A1E5B979800F788FA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				3F63B6881E5B720400F788FA /* ViewController.h */,
 				3F63B6891E5B720400F788FA /* ViewController.m */,
 				3F63B68B1E5B720400F788FA /* Main.storyboard */,
+				3F63B6991E5B979800F788FA /* DetailViewController.h */,
+				3F63B69A1E5B979800F788FA /* DetailViewController.m */,
 				3F63B68E1E5B720400F788FA /* Assets.xcassets */,
 				3F63B6901E5B720400F788FA /* LaunchScreen.storyboard */,
 				3F63B6931E5B720400F788FA /* Info.plist */,
@@ -153,6 +158,7 @@
 				3F63B68A1E5B720400F788FA /* ViewController.m in Sources */,
 				3F63B6871E5B720400F788FA /* AppDelegate.m in Sources */,
 				3F63B6841E5B720400F788FA /* main.m in Sources */,
+				3F63B69B1E5B979800F788FA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
