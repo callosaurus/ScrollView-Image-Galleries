@@ -28,8 +28,7 @@
     [super viewDidAppear:animated];
 
     
-    UIImage *lighthouseImage = [UIImage imageNamed:@"Lighthouse-night"];
-    self.detailedImageView = [[UIImageView alloc] initWithImage:lighthouseImage];
+    self.detailedImageView = [[UIImageView alloc] initWithImage:self.imageToBeDetailed];
     [self.detailScrollView addSubview:self.detailedImageView];
     
     self.detailScrollView.contentSize = CGSizeMake(CGRectGetWidth(self.detailedImageView.frame), CGRectGetHeight(self.detailedImageView.frame));
@@ -37,8 +36,8 @@
     self.detailScrollView.maximumZoomScale = 2.0;
     self.detailScrollView.minimumZoomScale = 0.5;
     
-    //initial zoome scale
-    self.detailScrollView.zoomScale = 0.5;
+    //initial zoom scale
+    self.detailScrollView.zoomScale = 1.0;
     
 }
 
